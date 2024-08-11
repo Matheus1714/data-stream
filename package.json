@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "data": "tsc && node build/generate-data-file.js --n=120",
-    "test": "vitest run --coverage"
+    "test": "vitest",
+    "test:report": "vitest run --coverage"
   },
   "author": "Matheus Silva Martins Mota",
   "license": "ISC",
