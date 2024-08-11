@@ -8,7 +8,14 @@ export default defineConfig({
     include: ["src/**/*spec.ts"],
     exclude: ["node_modules/**", "build/**"],
     coverage: {
-      exclude: ["**/*.js", "vitest.config.ts", "./src/config.ts"],
+      exclude: [
+        "**/*.js",
+        "vitest.config.ts",
+        "./src/config.ts",
+        "./src/fake-data.ts",
+        "./src/libs/*",
+        "./src/index.ts",
+      ],
     },
   },
 });
