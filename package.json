@@ -1,0 +1,20 @@
+{
+  "name": "data-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate-text.js",
+  "scripts": {
+    "build": "tsc",
+    "data": "tsc && node build/generate-data-file.js --n=120",
+    "test": "vitest run --coverage"
+  },
+  "author": "Matheus Silva Martins Mota",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5",
+    "@vitest/coverage-v8": "^2.0.5",
+    "@faker-js/faker": "^8.4.1",
+    "@types/node": "^22.2.0"
+  }
+}
