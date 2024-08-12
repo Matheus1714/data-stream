@@ -1,3 +1,3 @@
-const Stream = require("stream");
+import { createBatchFiles } from "./create-batch-files";
 
-const writableStream = new Stream.Writable();
+createBatchFiles();
