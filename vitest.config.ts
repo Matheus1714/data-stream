@@ -15,6 +15,7 @@ export default defineConfig({
         "./src/fake-data.ts",
         "./src/libs/*",
         "./src/index.ts",
+        "./src/create-batch-files.ts", // Temp
       ],
     },
   },
