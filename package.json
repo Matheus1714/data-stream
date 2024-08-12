@@ -4,8 +4,9 @@
   "description": "",
   "main": "generate-text.js",
   "scripts": {
+    "start": "tsc && node build/index.js",
     "build": "tsc",
-    "data": "tsc && node build/fake-data.js --n=120",
+    "data": "tsc && node build/fake-data.js --n=10000",
     "test": "vitest",
     "test:report": "vitest run --coverage"
   },
